@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 10px;
+	overflow-x: hidden;
+}
+body {
+	background: #E6E6E6;
+	overflow-x: hidden;
+	visibility: hidden;
+}
+section {
+	padding: 100px 0;
+}
+@media only screen and (max-width: 767px) {
+	section {
+		padding: 50px 0;
+	}
+}
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;}
+	
+:root {
+	--green-1: #26643b;
+	--green-2: #a2de96;
+	--lightGreen-1: #d6e5d8;
+	--lightGreen-2: #f5fcf4;
+	--black-1: #3b413a;
+	--black-2: #3f3c3c;
+	--black-3: #5b6359;
+	--white-1: #e8e8e8;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.testimonial__item__stars img{
+	width: 140px;
+	height: 50px;
+	object-fit: contain;
+	
+}
+.ourSpecials__item__stars img{
+	width: 120px;
+	height: 40px;
+	object-fit: contain;
+
+}
+.headerlogo{
+	width: 150px;
+	height: 200px;
+	
+	
+}
+
+.logo img{
+	transition: 0.6s ease;
+	cursor: pointer;
+}
+.logo img:hover{
+	transform: scale(1.3);
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: Poppins;
+	color: black;
+}
+
+p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 400;
+	line-height: 1.4em;
+	font-size: 1.8rem;
+}
+a {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	
+	
+}
+
+.nav__link{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+.nav__link:before{
+	content: "";
+	position: absolute;
+	bottom: -2px;
+	height: 3px;
+	width: 0;
+	background: black;
+	border-radius: 50px;
+	transition: width 0.5s ease;
+}
+.nav__link:hover:before{
+	width: 100%;
+}
+.ourGoals__imgs__wrapper{
+	height: 100%;
+	width: 100%;
+}
